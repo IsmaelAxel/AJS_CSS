@@ -1,41 +1,58 @@
-*{
-    margin: 0;
-    padding: 0;
-  }
-  
-  header{
-    background-color: #90ccfc;
-    text-align: center;
-  }
-  
-  main{
-    padding: 15px;
-    padding-top: 20px;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 10px;
-  }
-  
-  main div{
-    border: 3px solid black;
-    border-radius: 10px;
-    padding:20px
-  }
-  
-  .actividad01{
-    display: grid;
-    justify-content: center;
-  }
-  
-  button{
-    background-color:#90ccfc;
-    border: 0;
-    height: 40px;
-    padding: 10px;
-    border-radius: 5px;
-    transition: all .5s;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  button:hover{
-    background-color: blue;
-  }
+body {
+  background-image: url("https://assets.digitalhouse.com/content/ar/sch/trama-schools-clara.jpeg");
+  background-size: cover;
+  display: grid; 
+  grid-template-rows: auto 1fr; /* La primera fila para el header, la segunda para el main */
+  min-width: 100vw;
+  min-height: 100vh;
+  font-family: "Archivo", system-ui;
+}
+
+header {
+  background-color: #90ccfc;
+  padding: 40px;
+  text-align: center;
+  border-bottom: 3px solid black;
+  width: 100%;
+}
+
+main {
+  display: grid;
+  justify-content: center; /* Centra el contenido del main horizontalmente */
+  align-content: center; /* Centra el contenido del main verticalmente */
+  padding: 15px;
+  gap: 10px;
+}
+
+main div{
+  padding: 20px;
+}
+
+.actividad01 {
+  display: grid;
+  justify-content: center;
+}
+
+button {
+  border-radius: 10px;
+  background-color: #939292;
+  border: 2px solid #000000;
+  padding: 15px;
+  font-size: larger;
+  cursor: pointer;
+  transition: all .5s;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+button:hover{
+  background-color: #90ccfc;
+  color: #000000;
+}
