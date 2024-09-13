@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url("https://assets.digitalhouse.com/content/ar/sch/trama-schools-clara.jpeg");
+    background-size: cover;
+    display: grid;
+    grid-template-rows: auto 1fr; /* La primera fila para el header, la segunda para el main */
+    font-family: "Archivo", system-ui;
+    gap: 2em;
+  }
+  
+  header {
+    background-color: #000000;
+    padding: 40px;
+    text-align: center;
+    border-bottom: 3px solid #ffc400;
+    width: 100%;
+    color: #ffc400;
+  }
+  
+  main {
+    display: grid;
+    justify-content: center; /* Centra el contenido del main horizontalmente */
+    align-content: center; /* Centra el contenido del main verticalmente */
+    padding: 15px;
+  }
+  p {
+    text-transform: uppercase;
+  }
+  main div {
+    margin: 0 auto;
+    width: 100%;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 20px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+  }
+  li{
+    margin-bottom: 10px;
+    border-bottom: 2px solid #000000;
+  }
+  h1 {
+    font-size: xx-large;
+  }
+  h3{
+    border-bottom: 3px dashed #ffc400;
+  }
+  input{
+    padding: 15px;
+    border: 3px solid #000000;
+  }
+  button {
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 3px solid #000000;
+    padding: 15px;
+    font-size: larger;
+    cursor: pointer;
+    transition: all 0.5s;
+    text-transform: uppercase;
+  }
+  
+  button:hover {
+    background-color: #ffc400;
+    border: 3px solid #000000;
+  }
+  
+  footer {
+    background-color: #000000;
+    padding: 40px;
+    text-align: center;
+    border-top: 3px solid #ffc400;
+    color: #ffc400;
+    width: 100%;
+  }
+  
