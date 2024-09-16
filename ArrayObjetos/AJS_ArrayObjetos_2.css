@@ -13,7 +13,7 @@
   }
   
   header {
-    background-color: #ff8354;
+    background-color: #ff4463;
     padding: 40px;
     text-align: center;
     border-bottom: 3px solid black;
@@ -41,7 +41,13 @@
   }
   
   button:hover {
-    background-color: #ff8354;
+    background-color: #ff4463;
     color: #000000;
   }
+
+  #actividad02{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
   

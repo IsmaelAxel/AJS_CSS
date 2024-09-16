@@ -13,7 +13,7 @@
   }
   
   header {
-    background-color: #ff8354;
+    background-color: #ff5454;
     padding: 40px;
     text-align: center;
     border-bottom: 3px solid black;
@@ -41,7 +41,11 @@
   }
   
   button:hover {
-    background-color: #ff8354;
+    background-color: #ff5454;
     color: #000000;
   }
-  
+
+
+.feriado{
+  color:red;
+}

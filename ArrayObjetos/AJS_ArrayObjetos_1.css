@@ -13,7 +13,7 @@
   }
   
   header {
-    background-color: #ff8354;
+    background-color: #7ae1ff;
     padding: 40px;
     text-align: center;
     border-bottom: 3px solid black;
@@ -41,7 +41,7 @@
   }
   
   button:hover {
-    background-color: #ff8354;
+    background-color: #7ae1ff;
     color: #000000;
   }
   
