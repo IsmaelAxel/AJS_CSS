@@ -13,7 +13,7 @@
   }
   
   header {
-    background-color: #90ccfc;
+    background-color: #9144ff;
     padding: 40px;
     text-align: center;
     border-bottom: 3px solid black;
@@ -29,13 +29,14 @@
   }
   p{
       text-transform: uppercase;
-      border-bottom: 3px dashed #90ccfc;
+      border-bottom: 3px dashed #9144ff;
   }
   main #panel-filtros {
+    min-height: 70vh;
     padding: 20px;
     background-color: #ffffff;
     border-radius: 10px;
-    border: 2px solid #90ccfc;
+    border: 2px solid #9144ff;
     display: grid;
     grid-template-rows: 1fr;
     gap: 20px;
@@ -47,19 +48,16 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  article{
-   margin: 10px;
-   background-color: ivory;
-   color: rgb(59, 59, 59);
-   text-align: center;
-   padding: 7px;
-   border: 1px solid rgb(197, 202, 209);
-}
-  
+  input, select{
+    width: 98%;
+    padding: 2px;
+  }
   button {
+    width: 98%;
+    padding: 2px;
     border-radius: 10px;
     background-color: #939292;
-    border: 2px solid #90ccfc;
+    border: 2px solid #9144ff;
     padding: 15px;
     font-size: larger;
     cursor: pointer;
@@ -69,15 +67,35 @@
   }
   
   button:hover {
-    background-color: #90ccfc;
+    background-color: #9144ff;
     color: #000000;
   }
   
   footer {
-    background-color: #90ccfc;
+    background-color: #9144ff;
     padding: 40px;
     text-align: center;
     border-top: 3px solid black;
     width: 100%;
   }
 
+  .indicadorValor{
+    color: #209e20;
+ }
+ 
+  article img{
+    width: 100%;
+  }
+  
+  article{
+   margin: 10px;
+   background-color: ivory;
+   color: rgb(59, 59, 59);
+   text-align: center;
+   padding: 7px;
+   border: 1px solid rgb(197, 202, 209);
+    /* Paso 2C  */
+    display: grid;
+}
+
+  
