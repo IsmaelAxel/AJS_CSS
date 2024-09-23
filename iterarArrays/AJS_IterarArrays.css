@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url("https://assets.digitalhouse.com/content/ar/sch/trama-schools-clara.jpeg");
+    background-size: contain;
+    display: grid;
+    grid-template-rows: auto 1fr; /* La primera fila para el header, la segunda para el main */
+    font-family: "Archivo", system-ui;
+  }
+
+  header, footer{
+    background-color: #107c10;
+    padding: 20px;
+    color: white;
+    border: 5px solid #F2AE30;
+  }
+  
+  main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+   text-align: center;
+   justify-items: center;
+    padding: 20px 40px;
+    gap: 1em;
+  }
+  
+  h1{
+    color: white;
+    font-weight: bold;
+
+  }
+  button{
+    border: 0;
+    background-color: #F2AE30;
+    color: #593E25;
+    padding: 15px 20px;
+    font-size: 18px;
+    border-radius: 6px;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: all .5s;
+  }
+  button:hover{
+    background-color: #593E25;
+    color: #F2AE30;
+  }
+  
+  footer a{
+    color: #F2AE30;
+    font-weight: bolder;
+  }
