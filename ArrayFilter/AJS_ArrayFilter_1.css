@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    display: grid;
+    grid-template-rows: auto 1fr; 
+    font-family: "Archivo", system-ui;
+}
+
+header{
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  border-bottom: 2px solid #000000;
+  /* Esto agrega el alumno */
+  background-color: #9144ff;
+  /* Esto agrega el alumno */
+  color: black; 
+}
+
+main{
+  display: grid;
+  justify-content: center; 
+  text-align:center;
+  align-content: center; 
+  /* Esto agrega el alumno */
+  background-color: white;
+  /* Esto agrega el alumno */ 
+  color: black; 
+}
+footer{
+  padding: 20px;
+    border-top: 2px solid #000000;
+  /* Esto agrega el alumno */
+  background-color: #9144ff;
+  /* Esto agrega el alumno */
+  color: black; 
+}
+
+aside{
+  padding: 20px;
+  margin: 30px 0px 30px 0px;
+  border-radius: 10px;
+  border: 2px solid #000000;
+  /* Esto agrega el alumno */  
+  background-color: #bfa2e7;
+  /* Esto agrega el alumno */   
+  color: black; 
+}
+
+button{
+  padding: 8px;
+  margin-bottom:5px;
+  width:100%;
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 5px;
+  font-size: large;
+  /* Esto agrega el alumno */
+  background-color: #d1d1d1; 
+  /* Esto agrega el alumno */
+  color: black; 
+}
+
+article {
+  text-align:center;
+  padding: 10px 25px 10px 25px;
+  margin-bottom: 20px;
+  border: 2px solid #000000;
+  /* Esto agrega el alumno */
+  background-color: #a6cceb; 
+  /* Esto agrega el alumno */
+  color: black; 
+}
+
+h2{
+  margin-bottom:10px;
+}
+
+input,select{
+  padding: 8px;
+  margin: 10px 0px;
+  width:100%;
+  border-radius: 5px;
+}
+
+article img{
+  border: 2px solid #000000;
+}
+
+article h3{
+  margin-bottom: 10px;
+}
+article p{
+  margin-top: 5px;
+}
+
