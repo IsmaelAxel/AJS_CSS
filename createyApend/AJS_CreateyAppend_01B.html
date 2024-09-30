@@ -1,0 +1,76 @@
+<div>
+    <style>
+        #consigna-schools p,
+        #consigna-schools li {
+            font-size: 18px;
+        }
+
+        #consigna-schools h2 {
+            font-family: SourceSansPro, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        #consigna-schools h3 {
+            font-family: SourceSansPro, sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        #consigna-schools p.copy-warning {
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        #consigna-schools p.contexto-consigna {
+            font-style: italic;
+        }
+
+        #consigna-schools .texto-copiable {
+            padding: 2px;
+            background-color: #E0E0E0;
+            border: 1px solid #D9D9D9;
+            font-size: 15px;
+            color: #222;
+            font-style: italic;
+        }
+
+        #consigna-schools input.texto-copiable {
+            text-align: center;
+        }
+    </style>
+    <article id="consigna-schools">
+        <h2>createElement y appendChild - 1B</h2>
+        <p class="contexto-consigna">El objetivo de este ejercicio es que puedas crear una función, que te ayudará a
+            simular a hacer comentarios en un post.</p>
+        <p class="contexto-consigna">En tu HTML vas a encontrar una estructura predefinida con estilos y entre ellos un
+            button. Dándole forma como una red social.</p>
+        <br>
+        <h3>¿Qué tiene qué hacer el botón en esta actividad?</h3>
+        <ul>
+            <li>Al hacer clic en el botón, se deberá agregar un párrafo <b>en el div del posteo</b>, a partir del uso de
+                un prompt() que le solicite al usuario el texto a postear.</li>
+        </ul>
+        <br>
+        <h3>En JS:</h3>
+        <ul>
+            <li>Declara la función <b>comentarPost()</b>. Esta función deberá:
+                <ul>
+                    <li>Guardar en una variable llamada "<b>nuevoParrafo</b>" la etiqueta &lt;p&gt; que vas a crear
+                        usando el método <b>createElement()</b></li>
+                    <li>Guardar en otra variable llamada "<b>nuevoComentario</b>" lo que conteste el usuario a un
+                        <b>prompt()</b> con el mensaje: "<b>Ingresa tu comentario</b>"</li>
+                    <li>Agregarle como contenido a la variable "<b>nuevoParrafo</b>" el valor de la variable
+                        <b>nuevoComentario</b></li>
+                    <li>Encontrar la caja según su ID "<b>posteoRedSocial</b>" y agregarle el nuevo elemento usando el
+                        método <b>appendChild()</b></li>
+                </ul>
+            </li>
+        </ul>
+        <br>
+        <h3>En HTML:</h3>
+        <ul>
+            <li>Agrega al botón el atributo necesario para que ejecute la función.</li>
+        </ul>
+    </article>
+</div>
