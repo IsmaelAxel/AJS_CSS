@@ -1,0 +1,74 @@
+<div>
+    <style>
+        #consigna-schools p,
+        #consigna-schools li {
+            font-size: 18px;
+        }
+
+        #consigna-schools h2 {
+            font-family: SourceSansPro, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        #consigna-schools h3 {
+            font-family: SourceSansPro, sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        #consigna-schools p.copy-warning {
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        #consigna-schools p.contexto-consigna {
+            font-style: italic;
+        }
+
+        #consigna-schools .texto-copiable {
+            padding: 2px;
+            background-color: #E0E0E0;
+            border: 1px solid #D9D9D9;
+            font-size: 15px;
+            color: #222;
+            font-style: italic;
+        }
+
+        #consigna-schools input.texto-copiable {
+            text-align: center;
+        }
+    </style>
+    <article id="consigna-schools">
+        <h2>Ciclo For y Arrays Simples</h2>
+        <p class="contexto-consigna">En este ejercicio el objetivo será que puedas hacer una iteración sobre el array de tu listaDeTareas.</p>
+        <p class="contexto-consigna">En el HTML vas a tener predefinido una estructura con un button, una lista ordenada y en JavaScript tendrás un array con una listaDeTareas.</p>
+        <br>
+        <p><b>¿Qué tiene que hacer el botón en esta actividad?</b></p>
+        <p>
+        Al hacer clic en el <b>botón</b> se debe agregar a una lista todos los valores de un array.   
+        </p>
+        <br>
+        <h3>En JS:</h3>
+        <ul>
+            <li>Declara la función <b>listar().</b> Esta función deberá:</li>
+            <ul>
+                <li>
+                    Recorrer el array <b>listaDeTareas </b> para:
+                </li>
+                <ul>
+                    <li>
+                        Guardar en una variable un elemento <b>li</b> que vas a crear usando el método <b>createElement()</b>.
+                    </li>
+                    <li>Colocar cada <b>tarea del array</b> como contenido del <b>li</b></li>
+                    <li>Capturar el elemento con id <b>“tareas”</b> y agregarle el <b>creado</b>, usando el método <b>appendChild()</b>.
+                    </li>
+                </ul>   
+            </ul>
+        </ul>
+        <h3>En HTML:</h3>
+        <ul>
+            <li>Agrega al botón el atributo necesario para que ejecute la función.</li>
+        </ul>
+    </article>
+</div>
