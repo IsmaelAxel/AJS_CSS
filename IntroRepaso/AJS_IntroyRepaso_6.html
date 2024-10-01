@@ -1,0 +1,110 @@
+<div>
+    <style>
+        #consigna-schools p,
+        #consigna-schools li {
+            font-size: 18px;
+        }
+
+        #consigna-schools h2 {
+            font-family: SourceSansPro, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        #consigna-schools h3 {
+            font-family: SourceSansPro, sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        #consigna-schools p.copy-warning {
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        #consigna-schools p.contexto-consigna {
+            font-style: italic;
+        }
+
+        #consigna-schools .texto-copiable {
+            padding: 2px;
+            background-color: #E0E0E0;
+            border: 1px solid #D9D9D9;
+            font-size: 15px;
+            color: #222;
+            font-style: italic;
+        }
+
+        #consigna-schools input.texto-copiable {
+            text-align: center;
+        }
+    </style>
+    <article id="consigna-schools">
+        <h2>Introducción y repaso - 6</h2>
+        <p class="contexto-consigna">En este ejercicio, tu tarea será implementar la lógica indicada en la consigna para
+            que, al hacer clic en el botón en el HTML, se ejecute una función específica.</p>
+        <br>
+        <h3>En JS:</h3>
+        <ul>
+            <li>Copia el siguiente <b>array de objetos</b> en tu archivo <b>script.js:</b></li>
+            <ul>
+                <br>
+                <li class="texto-copiable">
+                    var jugadores = [];
+                    <br> <br>
+                    jugadores[0] = {
+                    <br> 
+                    nombre: "Messi",
+                    <br> 
+                    camiseta: 10,
+                    <br> 
+                    imagen: "https://i.ibb.co/vYFDYWs/gettyimages-972635212.jpg"
+                    <br> 
+                    }
+                    <br> <br>
+                    jugadores[1] = {
+                    <br> 
+                    nombre: "De Paul",
+                    <br> 
+                    camiseta: 7,
+                    <br> 
+                    imagen: "https://i.ibb.co/MhQc9DK/8-Kq-C1cmp-400x400.jpg"
+                    <br> 
+                    }
+                    <br> <br>
+                    jugadores[2] = {
+                    <br> 
+                    nombre: "Martinez",
+                    <br> 
+                    camiseta: 23, 
+                    <br> 
+                    imagen: "https://i.ibb.co/G01tQz1/KSYBapv-DB-340x340-1.jpg"
+                    <br> 
+                    }
+                </li>
+                <br>
+            </ul>
+            <li>Declara la función <b>mostrarJugador().</b> esta función deberá:</li>
+            <ul>
+                <li>
+                    Guardar en una <b>variable</b>, la respuesta a un <b>prompt</b> que le pregunte por un
+                    <b>número</b> de la lista de jugadores.
+                </li>
+                <li>
+                    Guardar en otra <b>variable</b>, el valor almacenado en la variable anterior menos <b>1 (-1).</b>
+                </li>
+                <li>
+                    Capturar el elemento con id “<b>mensajeJugador</b>” y mostrar un mensaje que incluya el uso de las propiedades <b>nombre y camiseta</b> del objeto. Por ejemplo: “El jugador <b>De Paul</b> tiene la camiseta número <b>7</b>”
+                </li>
+                <li>
+                    Por último, buscar el elemento con id “<b>imagenJugador</b>” y modificar su ruta (<b>.src</b>) colocando la propiedad <b>imagen</b> del objeto.
+                </li>
+            </ul>
+        </ul>
+        <br>
+        <h3>En HTML:</h3>
+        <ul>
+            <li>Agrega al botón el atributo correspondiente para que, al hacer clic, se ejecute la función que has desarrollado.</li>
+        </ul>
+    </article>
+</div>
