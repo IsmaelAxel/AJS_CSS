@@ -1,0 +1,62 @@
+<div>
+    <style>
+        #consigna-schools p,
+        #consigna-schools li {
+            font-size: 18px;
+        }
+
+        #consigna-schools h2 {
+            font-family: SourceSansPro, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        #consigna-schools h3 {
+            font-family: SourceSansPro, sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        #consigna-schools p.copy-warning {
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        #consigna-schools p.contexto-consigna {
+            font-style: italic;
+        }
+
+        #consigna-schools .texto-copiable {
+            padding: 2px;
+            background-color: #E0E0E0;
+            border: 1px solid #D9D9D9;
+            font-size: 15px;
+            color: #222;
+            font-style: italic;
+        }
+
+        #consigna-schools input.texto-copiable {
+            text-align: center;
+        }
+    </style>
+    <article id="consigna-schools">
+        <h2>Inscripción a la escuela primaria
+        </h2>
+        <p class="contexto-consigna">Una escuela primaria necesitar armar un algoritmo para indicarle a los usuarios que quieran inscribir a alguien, si pueden o no hacerlo dependiendo de la edad del ingresante.
+        </p>
+        <br>
+        <h3>En JS:
+        </h3>
+        <ul>
+            <li>Declara la <b>variable edadIngresante</b>, que guarde la respuesta a un <b>prompt</b> con el siguiente texto:
+            </li>
+            <input class="texto-copiable" size="50" value="Ingrese la edad de quien desea inscribir:" disabled>
+            <li><b>Define un condicional</b> que compare la <b>edad del ingresante</b> y compruebe si la misma <b>es mayor o igual a 6 y menor o igual a 12.</b>
+            </li>
+            <li>Si la condición es <b>verdadera</b>, se debe ejecutar un <b>alert</b> con el siguiente mensaje:</li>
+            <input class="texto-copiable" size="50" value="Puede continuar con el proceso de inscripción." disabled>
+            <li>Si la condición es <b>falsa</b>, se debe ejecutar un <b>alert</b> con el siguiente mensaje:</li>
+            <input class="texto-copiable" size="70" value="El ingresante no cumple con la edad para ingresar a la escuela primaria." disabled>
+        </ul>
+    </article>
+</div>

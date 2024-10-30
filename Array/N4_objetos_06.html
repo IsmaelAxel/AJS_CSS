@@ -1,0 +1,56 @@
+<div>
+    <style>
+        #consigna-schools p,
+        #consigna-schools li {
+            font-size: 18px;
+        }
+
+        #consigna-schools h2 {
+            font-family: SourceSansPro, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        #consigna-schools h3 {
+            font-family: SourceSansPro, sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        #consigna-schools p.copy-warning {
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        #consigna-schools p.contexto-consigna {
+            font-style: italic;
+        }
+
+        #consigna-schools .texto-copiable {
+            padding: 2px;
+            background-color: #E0E0E0;
+            border: 1px solid #D9D9D9;
+            font-size: 15px;
+            color: #222;
+            font-style: italic;
+        }
+
+        #consigna-schools input.texto-copiable {
+            text-align: center;
+        }
+    </style>
+    <article id="consigna-schools">
+        <h2>DigiLab [III]</h2>
+        <p class="contexto-consigna">El paciente Adrián, te pidió que le mandes el resultado vía mail. Así que, lo primero que debes hacer, es armarlo. </p>
+        <br>
+        <p>Por eso, en tu HTML encontrarás un <b>&lt;p&gt;</b> (párrafo) con el <b>id</b> <b>"resultado"</b>.</p>
+        <h3>Desde JS</h3>
+        <ul>
+            <li>Busca ese elemento por su <b>id</b> y con <b>.innerHTML</b> deberás mostrar el siguiente <b>texto</b>: </li>
+            <ul>
+                <li><b>"Sr. " + nombre del paciente + " " + apellido del paciente + " su " + causa de ingreso del paciente + " dio como resultado " + resultado del paciente</b></li>
+            </ul>
+        </ul>
+        <p class="contexto-consigna">Pista: todos los datos que necesites los sacarás del objeto paciente pero... ¿cómo?</p>
+    </article>
+</div>

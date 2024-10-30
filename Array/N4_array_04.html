@@ -1,0 +1,247 @@
+<div>
+    <style>
+        #consigna-schools p,
+        #consigna-schools li {
+            font-size: 18px;
+        }
+
+        #consigna-schools h2 {
+            font-family: SourceSansPro, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        #consigna-schools h3 {
+            font-family: SourceSansPro, sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        #consigna-schools p.copy-warning {
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        #consigna-schools p.contexto-consigna {
+            font-style: italic;
+        }
+
+        #consigna-schools .texto-copiable {
+            padding: 2px;
+            background-color: #E0E0E0;
+            border: 1px solid #D9D9D9;
+            font-size: 15px;
+            color: #222;
+            font-style: italic;
+        }
+
+        #consigna-schools input.texto-copiable {
+            text-align: center;
+        }
+    </style>
+    <article id="consigna-schools">
+        <h2>¿Dónde estaba?
+        </h2>
+        <p class="contexto-consigna">En esta clase, aprendiste un <b>método</b> que podemos aplicar a los arreglos. Este te permite saber que tan largo es el mismo. Es decir, puedes saber cuantos datos contiene, sin necesidad de que tengas que contarlos uno por uno.
+        </p>
+        <p class="contexto-consigna">Te toca probar y ver como funciona.
+        </p>
+        <br>
+        <h3><u><b>En JS:</b></u></h3>
+        <ul>
+            <li><b>Copia y pega el siguiente array.
+            </b> 
+            </li>
+            <div
+            style="
+              width: 60vw;
+              color: rgb(212, 212, 212);
+              background-color: rgb(30, 30, 30);
+              font-family: Consolas, 'Courier New', monospace;
+              font-size: 16px;
+            "
+          >
+            <span style="color: rgb(86, 156, 214); font-size: 18px">
+              <span style="font-size: 18px">var</span></span
+            ><span style="font-size: 18px"> </span
+            ><span style="color: rgb(156, 220, 254); font-size: 18px"
+              >muchasCosas</span
+            ><span style="font-size: 18px"> = [</span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Banana"</span
+            ><span style="font-size: 18px">, </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Martillo"</span
+            ><span style="font-size: 18px">, </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Libreta"</span
+            ><span style="font-size: 18px">, </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Linterna"</span
+            ><span style="font-size: 18px">, </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Mate"</span
+            ><span style="font-size: 18px">, </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Mouse"</span
+            ><span style="font-size: 18px">, </span>
+          </div>
+          <div
+            style="
+              width: 60vw;
+              color: rgb(212, 212, 212);
+              background-color: rgb(30, 30, 30);
+              font-family: Consolas, 'Courier New', monospace;
+              font-size: 16px;
+            "
+          >
+            <span style="color: rgb(206, 145, 120); font-size: 18px">"Celular"</span
+            ><span style="font-size: 18px">, </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Libro"</span
+            ><span style="font-size: 18px">, </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Lapicera"</span
+            ><span style="font-size: 18px">,</span
+            ><span style="font-size: 18px"> </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px"
+              >"Computadora"</span
+            ><span style="font-size: 18px">,</span
+            ><span style="font-size: 18px"> </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Cargador"</span
+            ><span style="font-size: 18px">, </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Botella"</span
+            ><span style="font-size: 18px">, </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Lápiz"</span
+            ><span style="font-size: 18px">, </span>
+          </div>
+          <div
+            style="
+              width: 60vw;
+              color: rgb(212, 212, 212);
+              background-color: rgb(30, 30, 30);
+              font-family: Consolas, 'Courier New', monospace;
+              font-size: 16px;
+            "
+          >
+            <span style="color: rgb(206, 145, 120); font-size: 18px">"Silla"</span
+            ><span style="font-size: 18px">, </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Mesa"</span
+            ><span style="font-size: 18px">, </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Planta"</span
+            ><span style="font-size: 18px">, </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Olla"</span
+            ><span style="font-size: 18px">, </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Horno"</span
+            ><span style="font-size: 18px">, </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Colador"</span
+            ><span style="font-size: 18px">,</span
+            ><span style="font-size: 18px"> </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Cuadro"</span
+            ><span style="font-size: 18px">, </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Hilo"</span
+            ><span style="font-size: 18px">, </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Maceta"</span
+            ><span style="font-size: 18px">, </span>
+          </div>
+          <div
+            style="
+              width: 60vw;
+              color: rgb(212, 212, 212);
+              background-color: rgb(30, 30, 30);
+              font-family: Consolas, 'Courier New', monospace;
+              font-size: 16px;
+            "
+          >
+            <span style="color: rgb(206, 145, 120); font-size: 18px">"Sillón"</span
+            ><span style="font-size: 18px">, </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Cortina"</span
+            ><span style="font-size: 18px">, </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Cama"</span
+            ><span style="font-size: 18px">,</span
+            ><span style="font-size: 18px"> </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Colchón"</span
+            ><span style="font-size: 18px">, </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Sartén"</span
+            ><span style="font-size: 18px">, </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px"
+              >"Colchoneta"</span
+            ><span style="font-size: 18px">, </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Mochila"</span
+            ><span style="font-size: 18px">, </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Riñonera"</span
+            ><span style="font-size: 18px">,</span>
+          </div>
+          <div
+            style="
+              width: 60vw;
+              color: rgb(212, 212, 212);
+              background-color: rgb(30, 30, 30);
+              font-family: Consolas, 'Courier New', monospace;
+              font-size: 16px;
+            "
+          >
+            <span style="color: rgb(206, 145, 120); font-size: 18px">"Toalla"</span
+            ><span style="font-size: 18px">, </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Shampoo"</span
+            ><span style="font-size: 18px">, </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Esponja"</span
+            ><span style="font-size: 18px">, </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Jabón"</span
+            ><span style="font-size: 18px">, </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Remera"</span
+            ><span style="font-size: 18px">, </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Pantalón"</span
+            ><span style="font-size: 18px">,</span
+            ><span style="font-size: 18px"> </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Cinturón"</span
+            ><span style="font-size: 18px">,</span
+            ><span style="font-size: 18px"> </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Medias"</span
+            ><span style="font-size: 18px">,</span>
+          </div>
+          <div
+            style="
+              width: 60vw;
+              color: rgb(212, 212, 212);
+              background-color: rgb(30, 30, 30);
+              font-family: Consolas, 'Courier New', monospace;
+              font-size: 16px;
+            "
+          >
+            <span style="color: rgb(206, 145, 120); font-size: 18px">"Almohadón"</span
+            ><span style="font-size: 18px">, </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Ojotas"</span
+            ><span style="font-size: 18px">, </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px"
+              >"Zapatillas"</span
+            ><span style="font-size: 18px">, </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Labial"</span
+            ><span style="font-size: 18px">, </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Botella"</span
+            ><span style="font-size: 18px">, </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Barbijo"</span
+            ><span style="font-size: 18px">, </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Vela"</span
+            ><span style="font-size: 18px">,</span
+            ><span style="font-size: 18px"> </span>
+          </div>
+          <div
+            style="
+              width: 60vw;
+              color: rgb(212, 212, 212);
+              background-color: rgb(30, 30, 30);
+              font-family: Consolas, 'Courier New', monospace;
+              font-size: 16px;
+            "
+          >
+            <span style="color: rgb(206, 145, 120); font-size: 18px">"Parlante"</span
+            ><span style="font-size: 18px">, </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Termo"</span
+            ><span style="font-size: 18px">, </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Cable"</span
+            ><span style="font-size: 18px">, </span
+            ><span style="color: rgb(206, 145, 120); font-size: 18px">"Mango"</span
+            ><span style="font-size: 18px">]</span>
+          </div>
+          <p>Este array es tan largo que no sabés cuantos datos almacena.
+        </p>
+        <li>En tu código, escribe la forma correcta de saber <b>cuantos datos</b> almacena el  <b>array muchasCosas</b> y <b>almacena</b> ese dato en una variable que se llame <b>cantidadDatos</b>.
+        </li>
+        <li>Muestra por <b>consola</b> el <b>valor</b> que guarda la <b>variable</b> <b>cantidadDatos</b>.
+        </li>
+        </ul>
+    </article>
+</div>

@@ -1,0 +1,94 @@
+<div>
+    <style>
+        #consigna-schools p,
+        #consigna-schools li {
+            font-size: 18px;
+        }
+
+        #consigna-schools h2 {
+            font-family: SourceSansPro, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        #consigna-schools h3 {
+            font-family: SourceSansPro, sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        #consigna-schools p.copy-warning {
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        #consigna-schools p.contexto-consigna {
+            font-style: italic;
+        }
+
+        #consigna-schools .texto-copiable {
+            padding: 2px;
+            background-color: #E0E0E0;
+            border: 1px solid #D9D9D9;
+            font-size: 15px;
+            color: #222;
+            font-style: italic;
+        }
+
+        #consigna-schools input.texto-copiable {
+            text-align: center;
+        }
+    </style>
+    <article id="consigna-schools">
+        <h2>¿Qué otras cosas podemos hacer con los arrays? Array.pop()
+        </h2>
+        <p class="contexto-consigna">En estos desafíos aprenderás algunos métodos aplicables a los arrays. Los métodos, son funciones que simplifican las interacciones con los arreglos.
+        </p>
+        <p><b>IMPORTANTE: Todos los métodos se aplican sobre el array, es decir colocas el nombre del arreglo, seguido, un punto y luego el método.</b>
+        </p>
+        <p>El primer método que verás será <b>.pop()</b>. Esté, te permite <b>eliminar el último valor del array</b>. Por ejemplo: 
+        </p>
+        <div
+        style="
+          color: rgb(212, 212, 212);
+          background-color: rgb(30, 30, 30);
+          font-family: Consolas, 'Courier New', monospace;
+          font-size: 16px;
+        "
+      >
+        <div>
+          <span style="color: #569cd6">var</span>
+          <span style="color: #9cdcfe">verduras</span> = [<span
+            style="color: #ce9178"
+            >"Cebolla"</span
+          >, <span style="color: #ce9178">"Ajo"</span>,
+          <span style="color: #ce9178">"Apio"</span>,
+          <span style="color: #ce9178">"Chaucha"</span>];
+        </div>
+        <br />
+        <div>
+          <span style="color: #9cdcfe">verduras</span>.<span style="color: #dcdcaa"
+            >pop</span
+          >();
+        </div>
+        <br />
+        <div>
+          <span style="color: #9cdcfe">console</span>.<span style="color: #dcdcaa"
+            >log</span
+          >(<span style="color: #9cdcfe">verduras</span>)
+          <span style="color: #6a9955"
+            >//Esto mostrará ["Cebolla", "Ajo", "Apio"]</span
+          >
+        </div>
+      </div>
+        <p>Ahora te toca practicarlo. En tu archivo script.js, encontrarás la <b>variable clasificados</b> que guarda un array con los nombres de los ganadores de una maratón. Los nombres están ordenados por orden de llegada a la meta. Tu tarea será:
+        </p>
+        <ul>
+            <li><b>Eliminar el último nombre del array clasificados.
+            </b>
+            </li>
+            <li><b>Mostrar</b> por <b>consola</b> el <b>array</b> para saber como quedó el podio.
+            </li>
+        </ul>
+    </article>
+</div>

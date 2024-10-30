@@ -1,0 +1,123 @@
+<div>
+    <style>
+        #consigna-schools p,
+        #consigna-schools li {
+            font-size: 18px;
+        }
+
+        #consigna-schools h2 {
+            font-family: SourceSansPro, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        #consigna-schools h3 {
+            font-family: SourceSansPro, sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        #consigna-schools p.copy-warning {
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        #consigna-schools p.contexto-consigna {
+            font-style: italic;
+        }
+
+        #consigna-schools .texto-copiable {
+            padding: 2px;
+            background-color: #E0E0E0;
+            border: 1px solid #D9D9D9;
+            font-size: 15px;
+            color: #222;
+            font-style: italic;
+        }
+
+        #consigna-schools input.texto-copiable {
+            text-align: center;
+        }
+    </style>
+    <article id="consigna-schools">
+        <h2>¿Qué otras cosas podemos hacer con los arrays? Array.join()
+        </h2>
+        <p>El último método que conocerás, será <b>.join(separador)</b>. Esté, te permite <b>unir todos los valores del array. Entre los paréntesis, puedes escribir el símbolo que separá a cada palabra.</b> Por ejemplo: 
+        </p>
+        <div
+  style="
+    font-family: Consolas, 'Courier New', monospace;
+    color: rgb(212, 212, 212);
+    background-color: rgb(30, 30, 30);
+    font-size: 16px;
+  "
+>
+  <div style="font-family: var(--primary-font)">
+    <span style="font-family: var(--primary-font); color: rgb(86, 156, 214)"
+      >var</span
+    >
+    <span style="font-family: var(--primary-font); color: rgb(156, 220, 254)"
+      >verduras</span
+    >
+    = [<span style="font-family: var(--primary-font); color: rgb(206, 145, 120)"
+      >"Cebolla"</span
+    >,
+    <span style="font-family: var(--primary-font); color: rgb(206, 145, 120)"
+      >"Ajo"</span
+    >,
+    <span style="font-family: var(--primary-font); color: rgb(206, 145, 120)"
+      >"Apio"</span
+    >,
+    <span style="font-family: var(--primary-font); color: rgb(206, 145, 120)"
+      >"Chaucha"</span
+    >];
+  </div>
+  <br style="font-family: var(--primary-font)" />
+  <div style="font-family: var(--primary-font)">
+    <span style="font-family: var(--primary-font); color: rgb(86, 156, 214)"
+      >var</span
+    ><span style="font-family: SourceSansPro, sans-serif"> </span
+    ><span style="font-family: var(--primary-font); color: rgb(156, 220, 254)"
+      >verdurasUnidas </span
+    ><span style="font-family: SourceSansPro, sans-serif">=</span
+    ><span style="font-family: var(--primary-font); color: rgb(156, 220, 254)">
+    </span
+    ><span style="font-family: var(--primary-font); color: rgb(156, 220, 254)"
+      >verduras</span
+    ><span style="font-family: var(--primary-font)">.</span
+    ><span style="font-family: var(--primary-font); color: rgb(220, 220, 170)"
+      >join</span
+    ><span style="font-family: var(--primary-font)">(</span
+    ><span
+      style="font-family: SourceSansPro, sans-serif; color: rgb(206, 145, 120)"
+      >"-"</span
+    ><span style="font-family: var(--primary-font)">);</span>
+  </div>
+  <br style="font-family: var(--primary-font)" />
+  <div style="font-family: var(--primary-font)">
+    <span style="font-family: var(--primary-font); color: rgb(156, 220, 254)"
+      >console</span
+    >.<span style="font-family: var(--primary-font); color: rgb(220, 220, 170)"
+      >log</span
+    >(<span style="font-family: var(--primary-font); color: rgb(156, 220, 254)"
+      >verdurasUnidas</span
+    >)
+    <span style="font-family: var(--primary-font); color: rgb(106, 153, 85)"
+      >//Esto mostrará "Cebolla-Ajo-Apio-Chaucha"</span
+    >
+  </div>
+</div>
+      <p><b>IMPORTANTE: Todos los métodos se aplican sobre el array, es decir colocas el nombre del arreglo, seguido, un punto y luego el método.
+      </b></p>
+      <p>¡Vamos!
+      </p>
+      <p>En tu archivo script.js, encontrarás la <b>variable fraseDesarmada</b> que guarda las palabras de un famoso dicho. Tu tarea será:
+      </p>
+        <ul>
+            <li><b>Crear</b> una <b>variable</b> nueva que se llame <b>fraseArmada. Dentro de ella, aplica el método join</b> al array <b>fraseDesarmada. Separa cada palabra con un espacio,</b> así: " "
+            </li>
+            <li><b>Mostrar</b> por <b>consola</b> el <b>array</b> para conocer el famoso dicho.
+            </li>
+        </ul>
+    </article>
+</div>

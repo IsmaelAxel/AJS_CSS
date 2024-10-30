@@ -1,0 +1,107 @@
+<div>
+    <style>
+        #consigna-schools p,
+        #consigna-schools li {
+            font-size: 18px;
+        }
+
+        #consigna-schools h2 {
+            font-family: SourceSansPro, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        #consigna-schools h3 {
+            font-family: SourceSansPro, sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        #consigna-schools p.copy-warning {
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        #consigna-schools p.contexto-consigna {
+            font-style: italic;
+        }
+
+        #consigna-schools .texto-copiable {
+            padding: 2px;
+            background-color: #E0E0E0;
+            border: 1px solid #D9D9D9;
+            font-size: 15px;
+            color: #222;
+            font-style: italic;
+        }
+
+        #consigna-schools input.texto-copiable {
+            text-align: center;
+        }
+    </style>
+    <article id="consigna-schools">
+        <h2>Votación</h2>
+        <p class="contexto-consigna">En este ejercicio crearás un menú para registrar la opinión de un usuario
+        </p>
+        <br>
+        <h3 style="margin-bottom: 10px;">Prepara el HTML
+        </h3>
+        <ul>
+            <li>Coloca un <b>&lt;h1&gt;</b> con el texto <b>Votación</b>
+            </li>
+            <li>Coloca un <b>&lt;p&gt;</b> con el texto <b>¿Estás de acuerdo con la propuesta?</b>
+            </li>
+            <li>Coloca un menú <b>&lt;select&gt;</b> con <b>id="menuVotacion"</b> - dentro del menú:</li>
+            <ul>
+                <li>
+                    Una opción con <b>value "No Contesta"</b> el texto --- (tres guiones) y el atributo <b>disabled selected</b> - mira el ejemplo:
+                </li>
+                <ul>
+                    <div
+                    style="
+                      color: rgb(212, 212, 212);
+                      background-color: rgb(30, 30, 30);
+                      font-family: Consolas, 'Courier New', monospace;
+                      font-size: 18px;
+                    "
+                  >
+                    <span style="color: #808080"> &lt;</span
+                    ><span style="color: #569cd6">option</span>
+                    <span style="color: #9cdcfe">value</span
+                    ><span style="color: #808080">=</span
+                    ><span style="color: #ce9178">"No Contesta"</span>
+                    <span style="color: #9cdcfe">disabled</span>
+                    <span style="color: #9cdcfe">selected</span
+                    ><span style="color: #808080">&gt;</span> ---
+                    <span style="color: #808080">&lt;/</span
+                    ><span style="color: #569cd6">option</span
+                    ><span style="color: #808080">&gt;</span>
+                  </div>
+                  <li>
+                    Una opción con <b>value "SÍ"</b> y el texto <b>SÍ</b>
+                  </li>
+                  <li>
+                    Una opción con <b>value "NO"</b> y el texto <b>NO</b>
+                  </li>
+                  <li>
+                    Coloca un <b>&lt;button&gt;</b> asociado a la función <b>registrarVoto()</b> con el texto <b>Votar</b>
+                  </li>
+                </ul>
+            </ul>
+        </ul>
+        <h3 style="margin-bottom: 10px; margin-top: 10px;">Programa en JS
+        </h3>
+        <ul>
+            <li>
+                Declara la función <b>registrarVoto()</b> - dentro de la función:
+            </li>
+            <ul>
+                <li>
+                    Crea una variable llamada <b>votoUsuario</b> y guarda dentro de ella el valor de la opción seleccionada por el usuario en el menú con <b>ID "menuVotacion"</b>
+                </li>
+                <li>Muestra en un <b>alert()</b> el siguiente mensaje concatenado: <b>"Voto registrado: " + votoUsuario</b>
+                </li>
+            </ul>
+        </ul>
+    </article>
+</div>

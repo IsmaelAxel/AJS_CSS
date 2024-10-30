@@ -1,0 +1,94 @@
+<div>
+    <style>
+        #consigna-schools p,
+        #consigna-schools li {
+            font-size: 18px;
+        }
+
+        #consigna-schools h2 {
+            font-family: SourceSansPro, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        #consigna-schools h3 {
+            font-family: SourceSansPro, sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        #consigna-schools p.copy-warning {
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        #consigna-schools p.contexto-consigna {
+            font-style: italic;
+        }
+
+        #consigna-schools .texto-copiable {
+            padding: 2px;
+            background-color: #E0E0E0;
+            border: 1px solid #D9D9D9;
+            font-size: 15px;
+            color: #222;
+            font-style: italic;
+        }
+
+        #consigna-schools input.texto-copiable {
+            text-align: center;
+        }
+    </style>
+    <article id="consigna-schools">
+        <h2>Buscador de objetos - Adelantando el Array
+        </h2>
+        <p class="contexto-consigna">Te proponemos ir empezando a transformar la información que recolectaste en tu Google Sheet a un <b>array de objetos.</b>
+        </p>
+        <br>
+        <h3><u><b>En JS:</b></u></h3>
+        <ul>
+            <li>Declara la <b>variable miCatalogo</b> que contenga un <b>array vacío</b>. 
+            </li>
+            <li><b>Dentro de este array</b>, debes colocar <b>objetos</b>. En <b>cada posición</b> del <b>array miCatalogo</b>, <b>crea</b> un <b>objeto</b> con las siguientes <b>propiedades</b> completas: <b>nombre, imagen</b> y <b>descripcion</b>. Todas son propiedades de <b>tipo string</b>, es decir deben ir <b>entre comillas</b>. 
+            </li>
+        </ul>
+        <p>Aquí te dejamos un modelo de como debería quedar completo el objeto:
+        </p>
+        <div style="margin-top: 10px">
+            <div
+              style="
+                color: rgb(212, 212, 212);
+                background-color: rgb(30, 30, 30);
+                font-family: Consolas, 'Courier New', monospace;
+                font-size: 16px;
+              "
+            >
+              <div>miCatalogo[0] = {</div>
+              <div>
+                &nbsp; &nbsp; &nbsp; <span style="color: #9cdcfe">nombre:</span>
+                <span style="color: #ce9178">"AuronPlay"</span>,
+              </div>
+              <div>
+                &nbsp; &nbsp; &nbsp;
+                <span style="color: rgb(156, 220, 254)">imagen:</span
+                ><span style="font-family: Consolas, 'Courier New', monospace"> </span
+                ><span style="color: rgb(206, 145, 120)"
+                  >"https://i.ibb.co/nwzS2Yv/16315244430699.jpg"</span
+                ><span style="font-family: Consolas, 'Courier New', monospace">,</span>
+              </div>
+              <div>
+                &nbsp; &nbsp; &nbsp; <span style="color: #9cdcfe">descripcion:</span>
+                <span style="color: #ce9178"
+                  >"Su saludo de cabecera es: ¡Eeeeey! Pero que pasa chavales.
+                </span>
+              </div>
+              <div>
+                <span style="color: #ce9178">¿Todo bien? ¿Todo correcto? Y </span
+                ><span style="color: rgb(206, 145, 120)">yo que me </span
+                ><span style="color: rgb(206, 145, 120)">alegro."</span>
+              </div>
+              <div>};<br /><br /></div>
+            </div>
+          </div>
+    </article>
+</div>
