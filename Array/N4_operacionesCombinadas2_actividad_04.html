@@ -1,0 +1,80 @@
+<div>
+    <style>
+        #consigna-schools p,
+        #consigna-schools li {
+            font-size: 18px;
+        }
+
+        #consigna-schools h2 {
+            font-family: SourceSansPro, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        #consigna-schools h3 {
+            font-family: SourceSansPro, sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        #consigna-schools p.copy-warning {
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        #consigna-schools p.contexto-consigna {
+            font-style: italic;
+        }
+
+        #consigna-schools .texto-copiable {
+            padding: 2px;
+            background-color: #E0E0E0;
+            border: 1px solid #D9D9D9;
+            font-size: 15px;
+            color: #222;
+            font-style: italic;
+        }
+
+        #consigna-schools input.texto-copiable {
+            text-align: center;
+        }
+    </style>
+    <article id="consigna-schools">
+        <h2>Promedios
+        </h2>
+        <p class="contexto-consigna">Ahora es necesario poder informar por pantalla los promedios de los estudiantes. Lo haremos con innerHTML.
+        </p>
+        <p class="copy-warning">El HTML y el CSS ya están dados.
+        </p>
+        <br>
+        <h3>Trabaja en JavaScript dentro de la función mostrarPromedio()
+        </h3>
+        <p>Ya tienes dado el array <i>alumnos</i> que tiene los promedios ya calculados. Obsérvalo para familizarizarte con su estructura. ¿Qué propiedades puedes observar en cada alumno?
+        </p>
+        <p>Primero debes saber quién es el alumno. Para eso, ya tienes la variable <i>numeroAlumno</i> con un <b>prompt</b> que pregunta por el numero de alumno a modificar.
+        </p>
+        <p>Debajo crea la variable <i>indice</i>, que contenga el índice del estudiante seleccionado según el dato ingresado por el usuario en el <b>prompt</b>. Ten en cuenta que el usuario ve los números de alumnos numerados desde 1, pero el array numera sus índices desde 0.
+        </p>
+        <br>
+        <p>Ahora informa por pantalla en el párrafo con id <b>mensaje</b>. 
+        </p>
+        <div
+  style="
+    color: rgb(212, 212, 212);
+    background-color: rgb(30, 30, 30);
+    font-family: 'Droid Sans Mono', 'monospace', monospace,
+      'Droid Sans Fallback';
+  "
+>
+  <span style="color: #808080">&lt;</span><span style="color: #569cd6">p</span>
+  <span style="color: #9cdcfe">id</span>=<span style="color: #ce9178"
+    >"mensaje"</span
+  ><span style="color: #808080">&gt;&lt;/</span
+  ><span style="color: #569cd6">p</span><span style="color: #808080">&gt;</span>
+        </div>
+        <p>Utiliza innerHTML para informar el promedio del alumno con el siguiente mensaje: <b>El promedio de Juan es 9</b>
+        </p>
+        <p>Ten en cuenta que debes reemplazar el nombre del alumno, y el promedio con los datos correspondientes. Los obtendrás del array alumnos con el índice que calculaste más arriba, y con la propiedad correspondiente: <b>nombre</b> o <b>promedio</b>.
+        </p>
+    </article>
+</div>

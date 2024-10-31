@@ -1,0 +1,63 @@
+<div>
+    <style>
+        #consigna-schools p,
+        #consigna-schools li {
+            font-size: 18px;
+        }
+
+        #consigna-schools h2 {
+            font-family: SourceSansPro, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        #consigna-schools h3 {
+            font-family: SourceSansPro, sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        #consigna-schools p.copy-warning {
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        #consigna-schools p.contexto-consigna {
+            font-style: italic;
+        }
+
+        #consigna-schools .texto-copiable {
+            padding: 2px;
+            background-color: #E0E0E0;
+            border: 1px solid #D9D9D9;
+            font-size: 15px;
+            color: #222;
+            font-style: italic;
+        }
+
+        #consigna-schools input.texto-copiable {
+            text-align: center;
+        }
+    </style>
+    <article id="consigna-schools">
+        <h2>El preceptor informa sobre deportes
+        </h2>
+        <p class="contexto-consigna">Algunos alumnos le acaban de avisar al preceptor que se anotaron en más de un deporte, y a la institución le interesa conocer en cuántos deportes se anotó cada alumno. Tu trabajo será encontrar este dato e informarlo con un alert.
+        </p>
+        <p class="copy-warning">El HTML y el CSS ya están dados.
+        </p>
+        <br>
+        <h3>Trabaja en JavaScript dentro de la función calcularDeportes()
+        </h3>
+        <p>Primero debes saber quién es el alumno. Para eso, ya tienes la variable <i>numeroAlumno</i> con un <b>prompt</b> que pregunta por el número de alumno a modificar. Además tienes la variable <i>indice</i> que guarda el verdadero número para acceder al array <i>alumnos</i>
+        </p>
+        <pre><p style="font-size: 16px;">Recuerda que los arrays empiezan en 0. Y el usuario ve la lista numerada desde 1.</p></pre>
+        <p>Ahora, para saber la cantidad de deportes en las que se anotó el alumno, crea una variable que se llame <i>cantidadDeportes</i>, y guarda en ella el dato correspondiente. ¿Cómo puedes averiguar la cantidad de deportes en las que se anotó un alumno?. Te damos una ayuda con esto: Primero, busca el alumno en el array usando la variable <i>indice</i>. Luego usa <b>.deportes</b> para acceder al arreglo y con <b>.length</b> obtendrás el largo del mismo.
+        </p>
+        <p>Por último, informa con un alert lo siguiente: 
+        <b>"Mina Pérez tiene anotados 3 deportes."</b>.
+        </p>
+        <p>Debes usar una concatenación para poder incorporar en este mensaje el nombre del alumno, y la cantidad de deportes que tiene anotados. Será una concatenación del tipo: <b>variable + " texto " + variable + " texto."</b>;
+        </p>
+    </article>
+</div>

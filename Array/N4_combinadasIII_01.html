@@ -1,0 +1,104 @@
+<div>
+    <style>
+        #consigna-schools p,
+        #consigna-schools li {
+            font-size: 18px;
+        }
+
+        #consigna-schools h2 {
+            font-family: SourceSansPro, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        #consigna-schools h3 {
+            font-family: SourceSansPro, sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        #consigna-schools p.copy-warning {
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        #consigna-schools p.contexto-consigna {
+            font-style: italic;
+        }
+
+        #consigna-schools .texto-copiable {
+            padding: 2px;
+            background-color: #E0E0E0;
+            border: 1px solid #D9D9D9;
+            font-size: 15px;
+            color: #222;
+            font-style: italic;
+        }
+
+        #consigna-schools input.texto-copiable {
+            text-align: center;
+        }
+    </style>
+    <article id="consigna-schools">
+        <h2>¿Cuál es la capital de...?
+        </h2>
+        <p class="contexto-consigna">En esta actividad, practicarás el uso de la función find(). Tu tarea será desarrollar un programa que permita al usuario buscar la capital de varios países de Latinoamérica.
+        </p>
+        <p class="contexto-consigna">Encontrás en el archivo script.js un array llamado listadoPaises. Este contiene objetos de tipo país, cada uno con las propiedades nombrePais y capital.
+        </p>
+        <br>
+        <h3><u><b>En JS comienza por:
+        </b></u></h3>
+        <ul>
+            <li><b>Crear</b> la <b>variable paisBuscado</b> que <b>guarde</b> la respuesta de un prompt que pregunte <i>"Ingrese un país de Latinoamérica para conocer su capital."</i>
+            </li>
+            <li>Luego, <b>define</b> la <b>variable objetoEncontrado</b>. En esta variable, <b>debemos guardar el resultado de la búsqueda</b>. Para eso aplica el método <b>find()</b> sobre el <b>array listadoPaises</b> para que busque la <b>coincidencia</b> entre el <b>paisBuscado</b> y la <b>propiedad nombrePais</b> del <b>objeto</b> en cuestión. Debería quedar algo así:
+            </li>
+        </ul>
+        <div
+        style="
+          color: rgb(212, 212, 212);
+          background-color: rgb(30, 30, 30);
+          font-family: Consolas, 'Courier New', monospace;
+          font-size: 16px;
+        "
+      >
+        <div
+          style="
+            font-family: Consolas, 'Courier New', monospace;
+            line-height: 20px;
+          "
+        >
+          <span style="color: rgb(86, 156, 214); font-size: 18px">var</span
+          ><span style="font-size: 18px"> </span
+          ><span style="color: rgb(156, 220, 254); font-size: 18px"
+            >objetoEncontrado</span
+          ><span style="font-size: 18px"> = </span
+          ><span style="color: rgb(156, 220, 254); font-size: 18px"
+            >listaPaises</span
+          ><span style="font-size: 18px">.</span
+          ><span style="color: rgb(220, 220, 170); font-size: 18px">find</span
+          ><span style="font-size: 18px">(</span
+          ><span style="color: rgb(156, 220, 254); font-size: 18px"
+            >objeto</span
+          ><span style="font-size: 18px"> </span
+          ><span style="color: rgb(86, 156, 214); font-size: 18px">=&gt;</span
+          ><span style="font-size: 18px"> </span
+          ><span style="color: rgb(156, 220, 254); font-size: 18px"
+            >objeto</span
+          ><span style="font-size: 18px">.</span
+          ><span style="color: rgb(156, 220, 254); font-size: 18px"
+            >nombrePais</span
+          ><span style="font-size: 18px"> == </span
+          ><span style="color: rgb(156, 220, 254); font-size: 18px"
+            >paisBuscado</span
+          ><span style="font-size: 18px">);</span>
+        </div>
+      </div>
+      <ul>
+        <li>
+            Por último, deberás mostrar un <b>alert</b> mostrando una oración aclarando el país que se buscó y su capital. El mensaje debería quedar algo así: <i>"La capital de " + objetoEncontrado.nombrePais + " es " + objetoEncontrado.capital</i>
+        </li>
+      </ul>
+    </article>
+</div>

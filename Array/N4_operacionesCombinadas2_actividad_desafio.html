@@ -1,0 +1,85 @@
+<div>
+    <style>
+        #consigna-schools p,
+        #consigna-schools li {
+            font-size: 18px;
+        }
+
+        #consigna-schools h2 {
+            font-family: SourceSansPro, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        #consigna-schools h3 {
+            font-family: SourceSansPro, sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        #consigna-schools p.copy-warning {
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        #consigna-schools p.contexto-consigna {
+            font-style: italic;
+        }
+
+        #consigna-schools .texto-copiable {
+            padding: 2px;
+            background-color: #E0E0E0;
+            border: 1px solid #D9D9D9;
+            font-size: 15px;
+            color: #222;
+            font-style: italic;
+        }
+
+        #consigna-schools input.texto-copiable {
+            text-align: center;
+        }
+    </style>
+    <article id="consigna-schools">
+        <h2>Cupcakes y más...
+        </h2>
+        <p class="contexto-consigna">Estamos ayudando a un nuevo emprendimiento que ofrece cupcakes personalizados. 
+        </p>
+        <p class="contexto-consigna">Vas a crear el código para que el cliente pueda elegir un topping de una lista, y luego, mostrarle un mensaje personalizado con un alert.
+        </p>
+        <p class="copy-warning">No es necesario que trabajes en el HTML ni en el CSS.
+        </p>
+        <br>
+        <h3>Trabaja en JS
+        </h3>
+        <p>En tu archivo script.js, encontrarás un array ya definido.
+        </p>
+        <ul>
+            <li>Primero, y debajo del array, deberás crear la función elegirTopping()
+            </li>
+        </ul>
+        <p>Luego, <b>dentro de la función elegirTopping()</b> haz lo siguiente:
+        </p>
+        <ul>
+            <li>Crea la variable eleccionUsuario con un <b>prompt</b>, para almacenar en ella el número de topping que elija el usuario. Elije el mensaje apropiado.
+            </li>
+            <li>Crea la variable <i>toppingElegido</i>, y almacena en ella el nombre del topping elegido usando el array <i>listaDeToppings</i>.
+            </li>
+        </ul>
+        <p><b>Atención: el usuario ve los toppings numerados desde el 1, pero ¿como se numeran los índices del array? y... ¿qué propiedad de los objetos toppings almacena su nombre?
+        </b></p>
+        <ul>
+            <li>De la misma forma, crea la variable <i>cantidadIngredientes</i>, y almacena en ella la cantidad de ingredientes del topping elegido.
+            </li>
+        </ul>
+        <p><b>La propiedad <i>ingredientes</i> de cada topping tiene un array con los ingredientes. ¿Cómo puedes obtener su cantidad?
+        </b></p>
+        <ul>
+            <li>Crea un <b>alert</b> con un mensaje que diga: <b>"Ya estamos preparando tu cupcake de Chocolate con 2 ingredientes"</b>.
+            </li>
+        </ul>
+        <p>Este mensaje tendrá el formato: "Texto "  + variable + " texto " + variable + " texto"
+        </p>
+        <p>Reemplaza "Chocolate" y "2" con el nombre del topping elegido y su cantidad de ingredientes, para que la información se vea reflejada en el <b>alert</b>.
+        </p>
+    </article>
+</div>

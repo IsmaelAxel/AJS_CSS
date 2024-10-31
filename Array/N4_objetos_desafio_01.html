@@ -1,0 +1,157 @@
+<div>
+    <style>
+        #consigna-schools p,
+        #consigna-schools li {
+            font-size: 18px;
+        }
+
+        #consigna-schools h2 {
+            font-family: SourceSansPro, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        #consigna-schools h3 {
+            font-family: SourceSansPro, sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        #consigna-schools p.copy-warning {
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        #consigna-schools p.contexto-consigna {
+            font-style: italic;
+        }
+
+        #consigna-schools .texto-copiable {
+            padding: 2px;
+            background-color: #E0E0E0;
+            border: 1px solid #D9D9D9;
+            font-size: 15px;
+            color: #222;
+            font-style: italic;
+        }
+
+        #consigna-schools input.texto-copiable {
+            text-align: center;
+        }
+    </style>
+    <article id="consigna-schools">
+        <h2>¿Sabías qué...? Los objetos pueden realizar acciones.
+        </h2>
+        <p>Hasta ahora conoces la sintaxis típica de un objeto. Mira el siguiente ejemplo de un <b>objeto gato:</b>
+        </p>
+        <div
+        style="
+          color: rgb(212, 212, 212);
+          background-color: rgb(30, 30, 30);
+          font-family: Consolas, 'Courier New', monospace;
+          font-size: 16px;
+        "
+      >
+        <div>
+          <span style="color: #569cd6">var</span>
+          <span style="color: #9cdcfe">gato</span> = {
+        </div>
+        <div>
+          &nbsp; &nbsp; <span style="color: #9cdcfe">nombre</span
+          ><span style="color: #9cdcfe">:</span>
+          <span style="color: #ce9178">"Michifus"</span>,
+        </div>
+        <div>
+          &nbsp; &nbsp; <span style="color: #9cdcfe">color</span
+          ><span style="color: #9cdcfe">:</span>
+          <span style="color: #ce9178">"naranja"</span>,
+        </div>
+        <div>}</div>
+      </div>
+        <p>Lo que no sabías es que a este objeto gato puede maullar. Te preguntarás, ¿cómo? ¡Con funciones! Mira el ejemplo:
+        </p>
+        <div
+        style="
+          color: rgb(212, 212, 212);
+          background-color: rgb(30, 30, 30);
+          font-family: Consolas, 'Courier New', monospace;
+          font-size: 16px;
+        "
+      >
+        <div>
+          <span style="color: #569cd6">var</span>
+          <span style="color: #9cdcfe">gato</span> = {
+        </div>
+        <div>
+          &nbsp; &nbsp; <span style="color: #9cdcfe">nombre</span
+          ><span style="color: #9cdcfe">:</span>
+          <span style="color: #ce9178">"Michifus"</span>,
+        </div>
+        <div>
+          &nbsp; &nbsp; <span style="color: #9cdcfe">color</span
+          ><span style="color: #9cdcfe">:</span>
+          <span style="color: #ce9178">"naranja"</span>,
+        </div>
+        <div>
+          &nbsp; &nbsp; <span style="color: #dcdcaa">maullar</span
+          ><span style="color: #9cdcfe">:</span>
+          <span style="color: #569cd6">function</span> () {
+        </div>
+        <div>
+          &nbsp; &nbsp; &nbsp; &nbsp;
+          <span style="color: #dcdcaa">alert</span>(<span
+            style="color: #ce9178"
+            >"Miau miau"</span
+          >)
+        </div>
+        <div>&nbsp; &nbsp; }</div>
+        <div>}</div>
+      </div>
+        <p>En el objeto gato, nombre y color son propiedades. Si recuerdas, para poder mostrar estas propiedades solo hacía falta llamar al objeto, seguido un punto y luego la propiedad. Así sería si lo muestras en la consola:
+        </p>
+        <div
+        style="
+          color: rgb(212, 212, 212);
+          background-color: rgb(30, 30, 30);
+          font-family: Consolas, 'Courier New', monospace;
+          font-size: 16px;
+        "
+      >
+        <span style="color: #9cdcfe">console</span>.<span
+          style="color: #dcdcaa"
+          >log</span
+        >(<span style="color: #9cdcfe">gato</span>.<span
+          style="color: #9cdcfe"
+          >nombre</span
+        >)<span style="color: #6a9955">//Esto muestra "Michifus"</span>
+      </div>
+        <p>Ahora, maullar es una función, entonces para ejecutarla vas a llamar al objeto y luego a la función. Así:
+        </p>
+        <div
+        style="
+          color: rgb(212, 212, 212);
+          background-color: rgb(30, 30, 30);
+          font-family: Consolas, 'Courier New', monospace;
+          font-size: 16px;
+        "
+      >
+        <span style="color: #9cdcfe">gato</span>.<span style="color: #dcdcaa"
+          >maullar</span
+        >()<span style="color: #6a9955"
+          >//Esto mostraría un alert que diga "Miau miau"</span
+        >
+      </div>
+      <p>Ahora te toca a vos.
+      </p>
+      <p><b>Crea</b> el <b>objeto perro</b> con las siguientes <b>propiedades</b>:
+      </p>
+      <p style="margin: 0; font-family: SourceSansPro, sans-serif;"><b>nombre: "Firulais",    
+      </b></p>
+      <p style="margin: 0; font-family: SourceSansPro, sans-serif;"><b>color: "negro"</b></p>
+      <p>Además deberás <b>agregar</b> la <b>función ladrar</b>. Esta función <b>ejecutará</b> un <b>alert</b> que diga <b>"Guau guau"</b>
+      </p>
+      <p></p>
+      <p>Por último, <b>ejecuta la función ladrar del objeto perro</b>.
+      </p>
+    </article>
+</div>

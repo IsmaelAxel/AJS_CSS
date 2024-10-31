@@ -1,0 +1,69 @@
+<div>
+    <style>
+        #consigna-schools p,
+        #consigna-schools li {
+            font-size: 18px;
+        }
+
+        #consigna-schools h2 {
+            font-family: SourceSansPro, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        #consigna-schools h3 {
+            font-family: SourceSansPro, sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        #consigna-schools p.copy-warning {
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        #consigna-schools p.contexto-consigna {
+            font-style: italic;
+        }
+
+        #consigna-schools .texto-copiable {
+            padding: 2px;
+            background-color: #E0E0E0;
+            border: 1px solid #D9D9D9;
+            font-size: 15px;
+            color: #222;
+            font-style: italic;
+        }
+
+        #consigna-schools input.texto-copiable {
+            text-align: center;
+        }
+    </style>
+    <article id="consigna-schools">
+        <h2>Ayuda al preceptor a recordar alumnos según su número de orden
+        </h2>
+        <p class="contexto-consigna">Algunas veces, el preceptor necesita conocer qué alumno es el que tiene cierto número en la lista. Ayúdalo con este programa para que pueda ingresar el número de alumno con un prompt, y pueda recibir un alert con el nombre correspondiente.
+        </p>
+        <p class="contexto-consigna">El HTML y el CSS ya están dados.
+        </p>
+        <br>
+        <h3>Trabaja en JavaScript
+        </h3>
+        <p>Primero debes saber quién es el alumno. Para eso, ya tienes creada la variable numeroAlumno con un <b>prompt</b> que pregunta por el número de alumno.
+        </p>
+        <p>Además tienes la variable <i>indice</i> que guarda el verdadero número para acceder al array <i>alumnos</i>
+        </p>
+        <pre><p style="font-size: 16px;">¿Por qué la variable <i>indice</i><b> </b>guarda como valor <i>numeroAlumno - 1 </i>?
+            Recuerda que los índices de los arrays empiezan en 0, pero los alumnos en la lista están numerados desde 1.</p></pre>
+        <p>Ahora debes componer el alert para mostrarle el nombre del alumno. El mensaje debe ser como el siguiente: <b>Juan tiene el número de orden 8</b>
+        </p>
+        <p>Entonces el alert tendrá este formato: <b>variable + " texto " + variable</b>
+        </p>
+        <p>Debes reemplazar "Juan" y "8" por los datos correspondientes.
+        </p>
+        <p>Para obtener el nombre del alumno, debes acceder al array alumnos con el valor de índice adecuado, y también deberás utilizar la propiedad correspondiente al nombre.
+        </p>
+        <p>Y ya tienes el número de alumno almacenado en una variable. Lo ingresó el preceptor en el prompt.
+        </p>
+    </article>
+</div>

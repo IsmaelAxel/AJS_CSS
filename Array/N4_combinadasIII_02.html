@@ -1,0 +1,72 @@
+<div>
+    <style>
+        #consigna-schools p,
+        #consigna-schools li {
+            font-size: 18px;
+        }
+
+        #consigna-schools h2 {
+            font-family: SourceSansPro, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        #consigna-schools h3 {
+            font-family: SourceSansPro, sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        #consigna-schools p.copy-warning {
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        #consigna-schools p.contexto-consigna {
+            font-style: italic;
+        }
+
+        #consigna-schools .texto-copiable {
+            padding: 2px;
+            background-color: #E0E0E0;
+            border: 1px solid #D9D9D9;
+            font-size: 15px;
+            color: #222;
+            font-style: italic;
+        }
+
+        #consigna-schools input.texto-copiable {
+            text-align: center;
+        }
+    </style>
+    <article id="consigna-schools">
+        <h2>Verbos irregulares en inglés: Infinitivo, pasado simple y pasado participio
+        </h2>
+        <p class="contexto-consigna">Vas a desarrollar un programa que permita al usuario colocar un verbo en inglés en infinitivo y así obtener los otros tiempos del mismo.
+        </p>
+        <p class="contexto-consigna">Encontrás en el archivo script.js un array llamado verbosIrregulares. Este contiene objetos de tipo verbo, cada uno con las propiedades infinitivo, pasadoSimple y pasadoParticipio.
+        </p>
+        <br>
+        <h3><u><b>En JS:</b></u></h3>
+        <ul>
+            <li>Comienza por <b>definir</b> la función <b>buscarVerbo()</b>. <b>Dentro</b> de esta:
+            </li>
+        </ul>
+        <ul>
+            <li><b>Crea</b> la <b>variable verboBuscado</b> que <b>guarde</b> la respuesta de un <b>prompt</b> que pregunte <i>"Ingrese el verbo que desea buscar."</i>
+            </li>
+            <li>Luego, <b>define</b> la <b>variable objetoEncontrado</b>. En esta variable, vamos a <b>guardar el resultado de la búsqueda</b>. Para eso aplica el método <b>find()</b> sobre el <b>array verbosIrregulares</b> para que busque un <b>objeto</b> cuya propiedad <b><i>.infinitivo</i></b> sea igual al valor de la variable <b>verboBuscado</b> 
+            </li>
+            <li>Por último, esta función deberá mostrar un <b>alert</b> que incluya una oración aclarando el verbo que se buscó, su pasado simple y el participio. El mensaje debería quedar algo así: <i>El pasado de eat es ate y el pasado participio es</i> eaten. Entonces el alert tendrá este formato <b>"El pasado de " + propiedad + " es " + propiedad + " y el pasado participio es" + propiedad</b>
+            </li>
+        </ul>
+        <p style="margin-left: 50px;"><b>Para obtener el presente, pasado simple y participio del verbo debes acceder a la propiedad correspondiente del objeto buscado. Ese objeto lo tienes en la variable objetoEncontrado.
+        </b></p>
+        <h3><u><b>Por último en tu HTML:
+        </b></u></h3>
+        <ul>
+            <li>Busca el <b>botón</b> y agrégale el <b>atributo</b> necesario para que <b>ejecute</b> la <b>función buscarVerbo()</b> al ser presionado.
+            </li>
+        </ul>
+    </article>
+</div>
